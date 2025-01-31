@@ -64,29 +64,6 @@ const ThemeSwitcher = () => {
 
 	},[])
 
-/*
-   import React from 'react';
-   import MyIcon from './MyIcon.svg';
-
-   function MyComponent() {
-       return <MyIcon />; 
-   }
-*/
-
-/*
-   import React, { lazy, Suspense } from 'react';
-
-   const MyIcon = lazy(() => import('./MyIcon.svg'));
-
-   function MyComponent() {
-       return (
-           <Suspense fallback={<div>Loading...</div>}>
-               <MyIcon />
-           </Suspense>
-       );
-   }
-*/
-
 	return (
 		<div className="d-flex flex-row-reverse align-items-center gap-2 pt-3 pe-3">
 			<div>
