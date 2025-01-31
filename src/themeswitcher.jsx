@@ -64,11 +64,33 @@ const ThemeSwitcher = () => {
 
 	},[])
 
+/*
+   import React from 'react';
+   import MyIcon from './MyIcon.svg';
+
+   function MyComponent() {
+       return <MyIcon />; 
+   }
+*/
+
+/*
+   import React, { lazy, Suspense } from 'react';
+
+   const MyIcon = lazy(() => import('./MyIcon.svg'));
+
+   function MyComponent() {
+       return (
+           <Suspense fallback={<div>Loading...</div>}>
+               <MyIcon />
+           </Suspense>
+       );
+   }
+*/
 
 	return (
 		<div className="d-flex flex-row-reverse align-items-center gap-2 pt-3 pe-3">
 			<div>
-				<ReactSVG src="moon.svg" />
+				<ReactSVG src="https://scrapnet.space/projects/atfeed/moon.svg" />
 			</div>
 			<div className="form-check form-switch">
 				<input
@@ -83,7 +105,7 @@ const ThemeSwitcher = () => {
 				/>
 			</div>
 			<div>
-				<ReactSVG src="sun.svg" />
+				<ReactSVG src="https://scrapnet.space/projects/atfeed/sun.svg" />
 			</div>
 		</div> 
 	)
