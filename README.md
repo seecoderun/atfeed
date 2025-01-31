@@ -2,6 +2,9 @@
 
 This small React app fetches and displays the [Ars Technica](https://arstechnica.com) RSS feed.
 
+## Online Demo
+You can find a working demo of the project [here](https://scrapnet.space/projects/atfeed).
+
 ## Installing
 To install the project, clone or download the source code and then run `npm install`.
 
