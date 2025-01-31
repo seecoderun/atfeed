@@ -67,7 +67,8 @@ const ThemeSwitcher = () => {
 	return (
 		<div className="d-flex flex-row-reverse align-items-center gap-2 pt-3 pe-3">
 			<div>
-				<ReactSVG src="https://scrapnet.space/projects/atfeed/moon.svg" />
+				{/* The path below matches the vite.config.js 'base' property /> */}
+				<ReactSVG src="/projects/atfeed/moon.svg" />
 			</div>
 			<div className="form-check form-switch">
 				<input
@@ -82,7 +83,8 @@ const ThemeSwitcher = () => {
 				/>
 			</div>
 			<div>
-				<ReactSVG src="https://scrapnet.space/projects/atfeed/sun.svg" />
+				{/* The path below matches the vite.config.js 'base' property /> */}
+				<ReactSVG src="/projects/atfeed/sun.svg" />
 			</div>
 		</div> 
 	)
